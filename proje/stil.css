@@ -1,0 +1,96 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner{
+    width: 100%;
+    background-color: blueviolet;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.banner h2{
+    color: rgb(209, 179, 154);
+}
+.menu{
+    background-color: lightgreen;
+    height: 80px;
+    width: 80%;
+    margin-bottom: 5px;
+
+}
+.menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    flex-wrap: wrap;
+    }
+.menu ul li a {
+    text-decoration: none ;
+    color: lightpink;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.icerik{
+    display: flex;
+    width: 80%;
+    height:auto;
+    
+}
+.icerik .makale{
+width: 80%;
+margin-right: 5px ;
+background-color: lightslategray;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+.icerik .makale p{
+    text-align: justify;
+    text-indent: 10px;
+}
+
+.icerik .yan-yana{
+    display: flex;
+}
+.yan-yana p{
+    margin-right: 15px;
+}
+.icerik .reklam{
+    background-color: rebeccapurple;
+    width: 20%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+}
+.reklam img{
+    height: 150px;
+
+}
+.reklam img:nth-child(2){
+    order: -1;
+}
+.footer{
+    flex-direction: column;
+    height: 50px;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
